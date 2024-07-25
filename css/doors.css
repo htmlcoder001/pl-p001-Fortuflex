@@ -1,0 +1,40 @@
+.order_block-doors .door-wrapper { margin: 0px !important; padding: 0px !important; }
+.order_block-doors ::after, .order_block-doors ::before { content: unset !important; }
+.order_block-doors { max-width: 1000px !important; margin: 0px auto !important; }
+.order_block-doors .door-wrapper .door-container { display: flex !important; justify-content: space-around !important; }
+.box-door { z-index: 100; }
+.order_block-doors .door-wrapper .box-door { perspective: 500px !important; position: relative !important; }
+.order_block-doors .door-wrapper .box-door, .order_block-doors .door-wrapper .door { width: 190px !important; height: 400px !important; box-shadow: rgb(25, 25, 25) -1px -1px 0px 1px inset, rgb(25, 25, 25) 1px 1px 0px 1px inset !important; }
+.order_block-doors .door-wrapper .door, .order_block-doors .door-wrapper .hi { position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; }
+.order_block-doors .door-wrapper { margin: 25px auto !important; }
+.order_block-doors .door-wrapper .door { background-image: url("../images/door-1.png"); background-repeat: no-repeat !important; background-size: 100% !important; transform: rotateY(0deg) !important; display: inline-block !important; transition: all 0.75s ease 0s !important; transform-origin: 0px 0px !important; cursor: pointer !important; }
+.order_block-doors #door-2 { background-image: url("../images/door2-1.png"); }
+.order_block-doors #door-3 { background-image: url("../images/door3-1.png"); }
+.order_block-doors .door-wrapper .door:hover { transform: rotateY(-30deg) !important; }
+.order_block-doors .door-wrapper .door-sales { position: absolute !important; top: 50% !important; left: 50% !important; text-align: center !important; transform: translate(-50%, -50%) !important; font-size: 55px !important; line-height: 57px !important; font-weight: 700 !important; color: red !important; border-radius: 30px !important; padding: 30px 5px !important; box-shadow: rgb(127, 120, 120) 0px 1px 2px 2px !important; width: 85% !important; min-width: 70px !important; margin: 0px !important; }
+.order_block-doors .door-wrapper .door-title { font-family: sans-serif; display: block !important; color: rgb(255, 255, 255) !important; font-weight: 700 !important; text-transform: uppercase !important; text-align: center !important; font-size: 22px !important; margin-bottom: 25px !important; background-color: rgb(58, 71, 82) !important; padding: 10px 0px !important; border-radius: 0.5em !important; }
+@media (max-width: 840px) {
+  .order_block-doors .door-wrapper .door-sales { font-size: 20px !important; line-height: 22px !important; font-weight: 700 !important; color: red !important; border-radius: 30px !important; width: 65% !important; min-width: 50px !important; }
+  .order_block-doors .door-wrapper .box-door, .order_block-doors .door-wrapper .door { width: 95px !important; height: 200px !important; }
+}
+@media (max-width: 360px) {
+  .order_block-doors .door-wrapper .box-door + .box-door { margin-left: 15px !important; }
+  .order_block-doors .door-wrapper .door-sales { font-size: 19px !important; line-height: 21px !important; font-weight: 700 !important; color: red !important; border-radius: 30px !important; }
+}
+header { display: flex; align-items: center; justify-content: center; margin-top: 20px; }
+.burger { }
+.logo_wrap > img { max-width: 500px; }
+.header_nav { display: flex; }
+.header_nav > li { list-style: none; }
+.header_nav > li > a { color: rgb(0, 0, 0) !important; }
+.header_nav > li > a:hover { color: gray !important; }
+.header_nav { gap: 15px; }
+@media (max-width: 1000px) {
+  .header_nav > li > a { font-size: 14px; }
+  .logo_wrap > img { max-width: 300px; }
+}
+@media (max-width: 650px) {
+  .header_nav { display: none; }
+  .logo_wrap > img { max-width: 300px; width: 100%; }
+}
+[scroll="goScrollToForm"] { cursor: pointer; }

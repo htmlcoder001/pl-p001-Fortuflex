@@ -1,0 +1,9 @@
+html { text-size-adjust: 100%; }
+body { margin: 0px; }
+article, figure, footer, header, main { display: block; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px; }
+b { font-weight: 700; }
+img { border: 0px; }
+svg:not(:root) { overflow: hidden; }
+figure { margin: 1em 40px; }

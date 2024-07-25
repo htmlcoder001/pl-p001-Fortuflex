@@ -1,0 +1,30 @@
+@keyframes super-rotation {
+  90% { transform: rotate(1745deg); }
+  100% { transform: rotate(1745deg); }
+}
+@keyframes pop-up-appear {
+  0% { transform: translateY(-2000px); }
+  30% { transform: translateY(100px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes pop-up-appear {
+  0% { transform: translateY(-2000px); }
+  30% { transform: translateY(100px); }
+  100% { transform: translateY(0px); }
+}
+@keyframes pop-up-appear-before {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+@keyframes pop-up-appear-before {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
+@keyframes pop-up-appear-after {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes pop-up-appear-after {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
